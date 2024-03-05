@@ -204,3 +204,57 @@
 
 
 
+// ========>chapter 12 to 13 IF...ELSE & ELSE IF STATEMENT,TESTING SET OF CONDITIONS=======>
+// Question no 1
+// var input=prompt("Enter a Character");
+
+// if(input.charCodeAt() >= 48 && input.charCodeAt() <= 57 ){
+//     alert(input + " is a number");
+// }
+// else if(input.charCodeAt() >= 65 && input.charCodeAt() <= 90 ){
+//     alert(input + " is an uppercase letter");
+// }
+// else if(input.charCodeAt() >= 97 && input.charCodeAt() <= 122 ){  
+//     alert(input + " is an lowercase letter");
+// }
+// else{
+//     alert("wrong letter");
+// }
+
+
+// Question no 2
+// var num1=prompt("Enter your first number");
+// var num2=prompt("Enter your second number");
+// if(num1 > num2){
+//      alert("Num1 = "+num1+" is Greater than Num2 = "+num2);
+// }
+// else if(num2 > num1){
+//     alert("Num2 = "+num2+" is Greater than Num1 = "+num1);
+// }
+// else{
+//     alert("Num1 = "+num1+" is Equal to Num2 = "+num2);
+// }
+
+
+// Question no 3
+// var num=prompt("Enter your number");
+// if(num > 0){
+//       document.write("The number is positive");
+// }
+// else if(num < 0){
+//     document.write("The number is negative");
+// }
+// else{
+//     document.write("The number is zero");
+// }
+
+
+// Question no 6
+// var greeting;
+// var hour=13;
+// if(hour < 18){
+//    greeting="Good day";
+// }
+// else{
+// greeting="Good evening";
+// }
