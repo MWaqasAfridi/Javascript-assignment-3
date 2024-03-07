@@ -126,11 +126,14 @@
 // if(guessNumber===secretNumber){
 //        document.write("Bingo! Correct answer");
 // }
+// else if(guessNumber===secretNumber-1){
+//     document.write("Close enough to the correct answer");
+// }
 // else if(guessNumber===secretNumber+1){
 //     document.write("Close enough to the correct answer");
 // }
 // else{
-//     document.write("Not! Correct answer");
+//     document.write("Try again");
 // }
 
 
@@ -249,6 +252,32 @@
 // }
 
 
+// Question no 4
+// var character=prompt("Enter a character");
+// character=character.toLowerCase();
+// if(character === 'a'||character === 'e'||character === 'i'||character === 'o'||character === 'u'){
+//     alert("yes,it is vowel");
+// }
+// else{
+//     alert("No,it's not vowel");
+// }
+
+
+// Question no 5
+// var correcrPassword=prompt("Enter correct password");
+// var userPassword=prompt("Enter user password");
+// if(userPassword == ""){
+//     alert("Please enter your password");
+// }
+// else if(userPassword == correcrPassword){
+//        alert("Correct! The password you entered matches the original password");
+// }
+// else{
+//     alert("Incorrect password");
+// }
+
+
+
 // Question no 6
 // var greeting;
 // var hour=13;
@@ -257,4 +286,24 @@
 // }
 // else{
 // greeting="Good evening";
+// }
+
+
+
+// Question no 7
+// var time=+prompt("Enter your time");
+// if(time>=0 && time<1200){
+//       alert("Good Morning")
+// }
+// else if(time>=1200 && time<1700){
+//     alert("Good afternoon");
+// }
+// else if(time>=1700 && time<2100){
+//     alert("Good evening");
+// }
+// else if(time>=2100 && time<=2359){
+//     alert("Good night");
+// }
+// else{
+//     alert("invalid Time")
 // }
